@@ -1,4 +1,4 @@
-package br.com.robsonaraujo.sgcp.service.api;
+package br.com.robsonaraujo.service.api;
 
 import java.io.Serializable;
 
@@ -7,7 +7,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import br.com.robsonaraujo.sgcp.model.entity.Hello;
+import br.com.robsonaraujo.model.entity.Hello;
 
 /**
  * See {@link RestConfiguration}

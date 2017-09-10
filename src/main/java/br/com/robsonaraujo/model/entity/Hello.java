@@ -1,4 +1,4 @@
-package br.com.robsonaraujo.sgcp.model.entity;
+package br.com.robsonaraujo.model.entity;
 
 import java.io.Serializable;
 

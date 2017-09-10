@@ -1,11 +1,11 @@
-package br.com.robsonaraujo.sgcp.service.provider;
+package br.com.robsonaraujo.service.provider;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.ExceptionMapper;
 import javax.ws.rs.ext.Provider;
 
-import br.com.robsonaraujo.sgcp.service.exception.BusinessException;
+import br.com.robsonaraujo.service.exception.BusinessException;
 
 @Provider
 public class BusinessExceptionMapper implements ExceptionMapper<BusinessException> {
